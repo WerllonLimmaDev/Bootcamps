@@ -1,0 +1,22 @@
+﻿Function Main
+    Declare Real nota1, nota2, nota3, nota4, total, media
+    Declare String nome, sobrenome
+    
+    Output "Digite seu nome: "
+    Input nome
+    Output "Digite seu sobrenome: "
+    Input sobrenome
+    Input nota1
+    Input nota2
+    Input nota3
+    Input nota4
+    Assign media = (nota1+nota2+nota3+nota4)/4
+    Assign Total = nota1+nota2+nota3+nota4
+    Output Total
+    Output "Aluno "& nome &" "& sobrenome & " sua média final foi: "& media
+    If media>=8
+        Output "Parabéns! Você foi aprovado!!!"
+    False:
+        Output "Infelizmente você foi reprovado."
+    End
+End

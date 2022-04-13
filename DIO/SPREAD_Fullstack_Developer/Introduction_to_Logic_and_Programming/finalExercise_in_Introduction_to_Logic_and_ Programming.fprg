@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usu&#225;rio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-13 06:18:08 "/>
+        <attribute name="created" value="VXN1w6FyaW87U1VDRVNTTy1NQVJLRVRJOzIwMjItMDQtMTM7IjAzOjA5OjQyICI7MzE3OA=="/>
+        <attribute name="edited" value="VXN1w6FyaW87U1VDRVNTTy1NQVJLRVRJOzIwMjItMDQtMTM7IjA2OjE4OjA4ICI7MzszMjkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, total, media" type="Real" array="False" size=""/>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <output expression="&quot;Digite seu nome: &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite seu sobrenome: &quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <assign variable="Total" expression="nota1+nota2+nota3+nota4"/>
+            <output expression="Total" newline="True"/>
+            <output expression="&quot;Aluno &quot;&amp; nome &amp;&quot; &quot;&amp; sobrenome &amp; &quot; sua m&#233;dia final foi: &quot;&amp; media" newline="True"/>
+            <if expression="media&gt;=8">
+                <then>
+                    <output expression="&quot;Parab&#233;ns! Voc&#234; foi aprovado!!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente voc&#234; foi reprovado.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
