@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript</h1>
+
+    <h2>Minha área Script:</h2>
+
+    <article>
+
+        <h3>Tipos Primitivos</h3>
+        
+            <h4>Boolean</h4>
+                
+                <p>
+                    var boolean = false;<br>
+                    console.log(`A variável ${boolean} tem o tipo ${typeof(boolean)}`);
+                </p>
+
+            <h4>Number</h4>      
+                
+                <p>
+                    var numero = 1;<br>
+                    console.log(`A variável ${numero} tem o tipo ${typeof(numero)}`);
+                </p>
+            
+            <h4>String</h4>      
+                
+                <p>
+                    var nome = 'Werlon';<br>
+                    console.log(`A variável ${nome} tem o tipo ${typeof(nome)}`);
+                </p>
+            
+            <h4>Function</h4>        
+                
+                <p>
+                    var funcao = function(){};<br>
+                    console.log(`A variável ${funcao} tem o tipo ${typeof(funcao)}`);
+                </p>
+            
+            <h4>Como Declarar</h4>
+                
+                <p>
+                    var; variável global ou local - valor inicial nulo <br>
+                    let; variavel local de bloco - valor inicial nulo <br>
+                    const; variável local de bloco - valor inicial obrigatório
+                </p>
+        
+    
+        <h3>Definições de escopo GLOBAL e LOCAL</h3>
+        
+            <h4>Usando var global</h4>
+                
+                <p>var nome = 'werlon';</p>
+                <p>nome = 'Werlon';</p>
+            
+            <h4>Usando var local</h4>
+            
+                <p>
+                    function nomeDaFuncao() {<br>
+                        var sobrenome = 'Lima';<br>
+                        console.log(sobrenome);<br>
+                    }<br>
+                    console.log(nome);<br>
+                    nomeDaFuncao();
+                </p>
+            
+                <p>
+                    <strong>As propriedades de var se aplicam a let, mas por convenção usamos let no escopo local</strong>
+                </p>
+        
+        <h3>Declaração de variáveis</h3>
+        
+        <h4>Existem 3 modos de declarar as variáveis em JavaScript:</h4>
+        
+        <p>
+            var – escopo global e local, pode ter seu valor alterado, se não
+            tiver um valor inicial será tratada como null;
+            <br>
+            let – escopo local de bloco, pode ter seu valor alterado, se não
+            tiver um valor inicial será tratada como null;
+            <br>
+            const – escopo local de bloco, somente leitura, o valor inicial é
+            obrigatório e não pode ser alterado.
+            
+        </p>
+
+        <h3>Diferenças entre atribuição, comparação e comparação idêntica:</h3>
+    
+            <h4>Comparação</h4>
+                
+                <p>
+                    var comparacao = "0" == 0;<br>
+                    console.log(comparacao);
+                </p>
+        
+        <h4>Comparação Idêntica</h4>
+        
+            <p>
+                var comparacaoIdentica = "0" === 0;<br>
+                console.log(comparacaoIdentica);
+            </p>
+       
+        <h3>Operadores Aritméticos</h3>
+
+            <h4>Adição</h4> 
+            
+                <p>
+                    var adicao = 1 + 1;<br>
+                    console.log(adicao);
+                </p>
+
+            <h4>Subtração</h4>   
+            
+                <p>
+                    var subtracao = 2 - 1;<br>
+
+                    console.log(subtracao);
+                </p>
+
+            <h4>Multiplicação</h4>       
+            
+                <p>
+                    var multiplicacao = 2 * 3;<br>
+                    console.log(multiplicacao);
+                </p>
+
+            <h4>Divisão Real</h4>      
+            
+                <p>
+                    var divisaoReal = 6 / 2;<br>
+                    console.log(divisaoReal);
+                </p>
+
+            <h4>Divisão Inteira</h4>
+            
+                <p>
+                    var divisaoInteira = 5 % 2;<br>
+                    console.log(divisaoInteira);
+                </p>
+
+            <h4>Potenciação</h4>     
+            
+                <p>
+                    var potenciacao = 2**10;<br>
+                    console.log(potenciacao);
+                </p>
+
+        <h3>Operadores Relacionais</h3>
+
+            <h4>Maior que</h4>    
+                
+                <p>
+                    var maiorQue = 5 > 2;<br>
+                    console.log(maiorQue);
+                </p>
+        
+            <h4>Menor que</h4>    
+                
+                <p>
+                    var menorQue = 5 < 2; <br>
+                    console.log(menorQue);
+                </p>
+        
+            <h4>Maior ou igual a</h4>
+                
+                <p>
+                    var maiorOuIgual = 5 >= 2;<br>
+                    console.log(maiorOuIgual);
+                </p>
+        
+            <h4>Menor ou igual a</h4>
+                
+                <p>
+                    var menorOuIgual = 5 <= 2; <br>
+                    console.log(menorOuIgual);
+                </p>
+
+        <h3>Operadores Lógicos</h3>
+
+            <h4>&& - Todos os valores devem ser true</h4>
+                
+                <p>
+                    var e = true && true; <br>
+                    console.log(e);
+                </p>
+
+            <h4>|| - Somente um valor deve ser true</h4>
+                
+                <p>
+                    var ou = true || false; <br>
+                    console.log(ou);
+                </p>
+
+            <h4>! - Inverte os valores</h4>
+                
+                <p>
+                    var nao = !true; <br>
+                    console.log(nao);
+                </p>
+
+    </article>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

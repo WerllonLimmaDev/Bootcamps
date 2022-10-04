@@ -1,0 +1,25 @@
+body {
+font-family: "Verdana";
+}
+h1 {
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    background: black;
+    color: yellow;
+}
+h3 {
+    font-size: 23px;
+    margin-left: 10px;
+    color: blue;
+    text-decoration: underline;
+}
+h4 {
+    padding: 15px;
+    font-size: 20px;
+    font-style: italic;
+}
+p {
+    font-size: 18px;
+    margin-left: 20px;
+}
