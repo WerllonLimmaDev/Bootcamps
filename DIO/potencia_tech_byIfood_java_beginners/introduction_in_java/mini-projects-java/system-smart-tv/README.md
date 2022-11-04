@@ -1,18 +1,16 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to my 1st Java project. 
 
-## Folder Structure
+## About
 
-The workspace contains two folders by default, where:
+This is a simple project to create a Smart TV with the following possibilities:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Increase and decrease the volume.
+- Switch channels up and down.
+- Choose a random user-defined channel.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+> "Step by step, we achieve our goals. However, it is essential to have perseverance and keep our eyes on each goal."
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
